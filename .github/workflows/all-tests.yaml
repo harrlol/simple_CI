@@ -35,7 +35,8 @@ jobs:
           pip install json-repair && \
           pip install argparse && \
           pip install google-cloud-storage && \
-          pip install tqdm
+          pip install tqdm && \
+          pip install chromadb
 
       # Step 4: Run pytest with coverage and generate HTML report
       - name: Run tests with coverage
