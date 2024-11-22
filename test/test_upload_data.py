@@ -4,7 +4,7 @@ import os
 from google.cloud import storage
 from google.api_core import exceptions
 import glob
-from upload_data import upload_to_gcp
+from src.upload_data import upload_to_gcp
 
 class TestUploadData:
     @pytest.fixture(autouse=True)
