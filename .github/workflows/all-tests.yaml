@@ -36,7 +36,8 @@ jobs:
           pip install argparse && \
           pip install google-cloud-storage && \
           pip install tqdm && \
-          pip install chromadb
+          pip install chromadb && \
+          pip install langchain
 
       # Step 4: Run pytest with coverage and generate HTML report
       - name: Run tests with coverage
